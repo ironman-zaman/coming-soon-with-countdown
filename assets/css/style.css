@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1e1f29), to(#343650));
+  background-image: linear-gradient(#1e1f29, #343650);
+}
+
+.content-wrap {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/bg-stars.svg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content-wrap .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.content-wrap .content .content-inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.content-wrap .content .content-inner main {
+  width: 100%;
+}
+
+.content-wrap .content .content-inner main header {
+  text-align: center;
+  margin-top: -200px;
+  margin-bottom: 100px;
+}
+
+.content-wrap .content .content-inner main header h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.content-wrap .content .content-inner main section {
+  width: 100%;
+}
+
+.content-wrap .content .content-inner main section .counter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content-wrap .content .content-inner main section .counter > div {
+  background: orange;
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-wrap footer {
+  background: url(../images/pattern-hills.svg);
+  background-size: 100% 100%;
+  background-position: center center;
+  min-height: 200px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-wrap footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 200px;
+}
+
+.content-wrap footer .social-icons svg:hover path {
+  fill: #fb6087;
+}
+
+.content-wrap footer .social-icons > div {
+  width: 33.33%;
+}
+/*# sourceMappingURL=style.css.map */
