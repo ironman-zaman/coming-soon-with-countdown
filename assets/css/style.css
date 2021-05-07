@@ -6,8 +6,9 @@
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1e1f29), to(#343650));
-  background-image: linear-gradient(#1e1f29, #343650);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #1e1f29), to(#343650));
+  background-image: linear-gradient(#1e1f29 60%, #343650);
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .content-wrap {

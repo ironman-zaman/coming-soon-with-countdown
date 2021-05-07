@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(hsl(235, 16%, 14%), hsl(236, 21%, 26%));
+    background-image: linear-gradient(hsl(235, 16%, 14%) 60%, hsl(236, 21%, 26%));
+    font-family: 'Red Hat Text', sans-serif;
 }
 .content-wrap{
 height: 100vh;
